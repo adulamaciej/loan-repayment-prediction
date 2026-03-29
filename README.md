@@ -12,5 +12,17 @@ Binary classification competition predicting loan repayment probability, evaluat
 - Backup strategy: single hypertuned LightGBM
 
 
+## Data
+Download the datasets from the [Kaggle competition](https://www.kaggle.com/competitions/forecasting-loan-repayment) and place them in the `data/` folder:
+- `train.csv`
+- `test.csv`
+- `original.csv`
+
+## Setup
+```bash
+pip install -r requirements.txt
+```
+
 ## Notes
-Detailed methodology, results, and reproducibility notes are documented within each notebook and particularly in the summaries at the end
+- Detailed methodology, results, and reproducibility notes are documented within each notebook and particularly in the summaries at the end
+- Full pipeline requires GPU for practical runtime — see reproducibility notes in `02_model.ipynb` for details.
