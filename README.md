@@ -13,4 +13,4 @@ Binary classification competition predicting loan repayment probability, evaluat
 
 
 ## Notes
-Detailed methodology, results, and reproducibility notes are documented within each notebook.
+Detailed methodology, results, and reproducibility notes are documented within each notebook and particularly in the summaries at the end
